@@ -1,0 +1,29 @@
+# Secrets — never commit real keys
+.env
+.env.local
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large artifacts (rebuild with scripts/build_faiss_index.py)
+models/index/
+*.faiss
+
+# Optional: HF / torch caches (often in ~/.cache)
+# .cache/
+
+# Frontend (Vite)
+frontend/node_modules/
+frontend/dist/
+
+# Learning docs (local-only notes)
+docs/PHASE_*_README.md
+docs/LEARNING_PATH.md
+docs/flow/
+docs/frontend/
+
+

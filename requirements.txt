@@ -1,0 +1,17 @@
+# Phase 1: embeddings + FAISS
+numpy>=1.24.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Phase 4: RAG (OpenAI-compatible APIs)
+openai>=1.30.0
+pydantic>=2.0.0
+
+# Phase 5: transformer emotion (explicit; also pulled by sentence-transformers)
+transformers>=4.36.0
+
+# Phase 6: HTTP API
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-dotenv>=1.0.0
